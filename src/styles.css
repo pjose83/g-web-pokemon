@@ -1,0 +1,156 @@
+.container {
+  max-width: 900px;
+  width: 100%;
+  margin: auto;
+}
+
+.pokemon-list {
+  padding: 0;
+}
+
+.pokemon-item {
+  display: flex;
+  background-color: #303138;
+  justify-content: space-around;
+  margin: 1.5rem 0;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-radius: 5px;
+}
+
+.pokemon-labels {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.pokemon-values {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.search-addBtn-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  position: absolute;
+  left: .5rem;
+}
+
+.searcher {
+  padding: 1rem;
+  padding-left: 2.3rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.add-btn {
+  display: flex;
+  padding: 1rem 1rem;
+  border-radius: 5px;
+  border: none;
+  gap: .5rem;
+  color: white;
+  background-color: #800080;
+  font-weight: bold;
+  align-items: flex-end;
+}
+
+.add-btn:hover {
+  background-color: #800080aa;
+}
+
+.icons-wrapper {
+  margin: 5px 0 15px;
+  display: flex;
+  gap: 2rem;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.not-found {
+  background-color: #303138;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  padding: 1rem;
+  margin-top: 1rem;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.modal-bg {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #0008;
+  z-index: 300;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.form {
+  background-color: #303138;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 11px 11px 116px 73px rgba(0,0,0,0.75);
+  text-align: center;
+  min-width: 400px;
+  /* width: 100%; */
+  /* max-width: 800px; */
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+  text-align: start;
+  font-weight: bold;
+}
+
+.modalBtn-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.modalBtn-cancel,
+.modalBtn-accept {
+  padding: .5rem 0;
+  border-radius: 5px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-weight: bold;
+  width: 120px;
+  color: aliceblue;
+}
+
+.modalBtn-accept {
+  background-color: #800080;
+}
+
+.modalBtn-cancel {
+  background-color: #500050;
+}
+
+.image-link {
+  color: steelblue;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 10px 0;
+}
